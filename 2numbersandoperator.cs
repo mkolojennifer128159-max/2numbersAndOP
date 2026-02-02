@@ -32,7 +32,6 @@ class Program
         }
         else if (op == '/')
         {
-            // 3. CHANGE: Check for Zero before dividing
             if (num2 != 0)
             {
                 Console.WriteLine("Result = " + (num1 / num2));
@@ -48,4 +47,5 @@ class Program
         }
         Console.ReadLine();
     }
+
 }
